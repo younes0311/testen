@@ -1,0 +1,51 @@
+.box{
+
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.text1{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.okay{
+ 
+    display: flex;
+    flex-direction: column-reverse;
+    height: 150px;
+}
+
+.big-box{
+   
+    display: flex;
+    
+}
+
+input{
+    display: flex;
+    position: relative;
+    top: 160px;
+    margin-bottom: 20px;
+}
+
+button{
+    position: absolute;
+    top: 300px;
+    width: 100px;
+    height: 30px;
+}
